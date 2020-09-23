@@ -4,7 +4,7 @@ import './App.scss';
 
 const App = () => {
 
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState<number>(0);
   return (
     <div>
       Count:{' '}{count}
