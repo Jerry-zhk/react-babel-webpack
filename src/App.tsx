@@ -1,19 +1,13 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './App.scss';
 
-
 const App = () => {
-
-  const [count, setCount] = useState<number>(0);
   return (
-    <div>
-      Count:{' '}{count}
-      <button onClick={() => {
-        setCount((c) => c + 1)
-      }}>+</button>
+    <div> 
+      Typescript react
     </div>
   )
-}
+} 
 
 
 export default App;

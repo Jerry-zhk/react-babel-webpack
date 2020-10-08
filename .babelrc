@@ -1,7 +1,7 @@
 {
     "presets": [
         "@babel/preset-env",
-        // "@babel/preset-typescript",
+        // "@babel/preset-typescript", // for fast transpilation (no type checking)
         "@babel/preset-react"
     ]
 }
